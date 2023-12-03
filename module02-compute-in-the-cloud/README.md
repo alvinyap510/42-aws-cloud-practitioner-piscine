@@ -13,7 +13,7 @@
 
 ## Notes
 
-A. Amazon Elasctic Compute Cloud
+### A. Amazon Elasctic Compute Cloud
 
 - Better known as EC2
 - Equivalent
@@ -180,3 +180,35 @@ Ensure even distribution between EC2 instances.
 - Decoupled Architecture
 - Works together with EC2 Auto-Scaling to manage instances
 - Also orchestra between frontend instances and backend intances
+
+### H. Messaging and Queuing
+
+Similar to an order board on a restaurant, where chasier receives orders, and the orders will be posted to the order board for kitchen to process it.
+
+- If cachier directly talks to the barista, then it is called a tightly coupled application
+- Alternatively, a loosely coupled architecture ensures that a single failure doesn't causes cascading collapse
+
+#### Message Queue
+
+When Application A tries to talk to Application B, a message queue acts as a buffer so that when Application B goes down, the requests are still queued with the buffer and eventually get processed when application B spin up again.
+
+- #### Amazon Simple Queue Service (Amazon SQS)
+
+  - Send, store and receive messages between software components at any volume
+  - Data contained in SQS is called a payload
+  - Messages are stored until they are processed
+
+- #### Amazon Simple Notification Service (Amazon SNS)
+
+  - Can also send out notifications to end user
+  - Public-Subsribe Model
+  - Subscribers can be: Mobile pushes, SMS, emails, endpoints, SQS queues, Lambda functions, Webhooks
+
+#### Components of an Applications
+
+- Databases
+- Servers
+- Interface
+- Business Logics
+
+Monolithic vs Microservices Architecture
