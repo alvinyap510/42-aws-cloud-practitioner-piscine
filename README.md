@@ -2,7 +2,9 @@
 
 ## Introduction
 
-This is the repo for 42 Kuala Lumpur's AWS Cloud Practitioner Certification 14-Days Piscine.
+Repo for 42 Kuala Lumpur's AWS Cloud Practitioner Certification 14-Days Piscine.
+
+This is a 14 days intensive group learning similar to how a 42 piscine works, whereby group members is responsible on making sure the attendance and learning progress of peers.
 
 ## Resources
 

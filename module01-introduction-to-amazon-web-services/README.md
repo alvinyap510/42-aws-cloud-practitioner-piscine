@@ -1,12 +1,12 @@
 # Module-01-Introduction-To-Amazon-Web-Services
 
-## Notes
-
-Learning Objectives
+## Learning Objectives
 
 - Summarize the benefits of AWS.
 - Describe differences between on-demand delivery and cloud deployments.
 - Summarize the pay-as-you-go pricing model.
+
+## Notes
 
 A. Amazon Elasctic Compute Cloud
 
