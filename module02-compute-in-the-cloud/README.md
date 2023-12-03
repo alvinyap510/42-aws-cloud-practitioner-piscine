@@ -212,3 +212,33 @@ When Application A tries to talk to Application B, a message queue acts as a buf
 - Business Logics
 
 Monolithic vs Microservices Architecture
+
+### H. Additional Compute Services
+
+EC2 Cons:
+
+- Patching instances when new software packages comes out
+- Monitor the scaling
+- Encure the architecture of the system in a highly available manner
+
+#### Alternatives
+
+- #### Serverless
+
+  - abstract away the server setup
+
+- #### AWS Lambda
+
+  - Code running below 15 minutes
+
+- #### AWS Elastic Container Services (ECS)
+
+  - Uses Docker containers
+
+- #### AWS Elastic Kubernetes Services (EKS)
+
+  - Kubernetes
+
+- #### AWS Fargate
+
+  - Serverless compute platform for ECS and EKS
