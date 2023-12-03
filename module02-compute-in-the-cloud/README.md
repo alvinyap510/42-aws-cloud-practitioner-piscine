@@ -37,3 +37,67 @@ B. Hypervisor (Coordinating Multitenancy)
   2. Type 2 (Hosted Hypervisors)
 
   - Programme
+
+C. Amazon EC2 Configurations
+
+- OS: Windoes, Linux
+- Software
+- Databases
+- Third-party Softwares
+- Resizable (Vertical Scaling)
+
+D. Types of EC2 Instances
+
+- Grouped by instances families
+
+  - I. General Purpose
+
+    - Balanced resources
+    - Diverse workloads
+    - Used as: Web Servers, Code Repositories
+
+  - II. Compute Optimized
+
+    - Gaming Server
+    - Scientific Modelling
+    - High Performance Computing
+    - Parallel processing, advanced networking, large-scale data handling, financial modelling
+
+  - III. Memory Optimized
+
+    - Memory intensive tasks
+
+  - IV. Accelarated Computing
+
+    - Floating point calculations
+    - Graphics processing
+    - Data pattern matching
+    - Utilizaes hardware accelators
+
+  - V. Storage Optimized
+
+    - Workloads that require high performance of locally stored data
+    - Distributed File-Systems / Data-Warehousing Applications / High-Frequency online transaction processing (OLTP) systems
+    - Data-Warehousing: refers to the process of aggregating large volume of data into a single / central place, for analysis or querying
+
+E. Amazon EC2 Billing Options
+
+- On-Demand Pricing
+  - Only pay for the duration the instance runs for
+  - Per Hour / Per Second
+  - No long term commitment
+  - No upfront payment
+- Savings Plan
+  - Low Price In Exchange for Consistent
+  - Savings up to 72%
+- Reserved Instances
+  - Upfront payment
+    - All
+    - Partial
+    - No Upfront
+  - Savings up to 75%
+- Spot Instances
+  - Up to 90% savings
+  - Request spare AWS computing capacity
+  - Can reclaim anytime
+  - 2 minute notifications to reclaim
