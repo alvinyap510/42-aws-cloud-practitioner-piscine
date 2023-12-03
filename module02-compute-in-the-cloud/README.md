@@ -32,11 +32,11 @@ B. Hypervisor (Coordinating Multitenancy)
 
   1. Type 1 (Bare-Metal Hypervisors)
 
-  - Hardware
+     - Hardware
 
   2. Type 2 (Hosted Hypervisors)
 
-  - Programme
+     - Programme
 
 C. Amazon EC2 Configurations
 
@@ -80,24 +80,103 @@ D. Types of EC2 Instances
     - Distributed File-Systems / Data-Warehousing Applications / High-Frequency online transaction processing (OLTP) systems
     - Data-Warehousing: refers to the process of aggregating large volume of data into a single / central place, for analysis or querying
 
-E. Amazon EC2 Billing Options
-
-- On-Demand Pricing
-  - Only pay for the duration the instance runs for
-  - Per Hour / Per Second
-  - No long term commitment
-  - No upfront payment
-- Savings Plan
-  - Low Price In Exchange for Consistent
-  - Savings up to 72%
-- Reserved Instances
-  - Upfront payment
-    - All
-    - Partial
-    - No Upfront
+<details>
+<summary>E. Amazon EC2 Billing Options
+</summary>
+  <details>
+    <summary>On-Demand Pricing</summary>
+  
+- Only pay for the duration the instance  runs for
+- Per Hour / Per Second
+- No long term commitment
+- No upfront payment
+  
+  </details>
+  
+  <details>
+    <summary>Savings Plan</summary>
+  
+- Low Price In Exchange for Consistent
+- Savings up to 72%
+  
+  </details>
+  
+  <details>
+    <summary>Reserved Instances</summary>
+  
+- Upfront payment
+  - All
+  - Partial
+  - No Upfront
   - Savings up to 75%
-- Spot Instances
+  
+  </details>
+  
+  <details>
+    <summary>Spot Instances</summary>
+  
   - Up to 90% savings
   - Request spare AWS computing capacity
   - Can reclaim anytime
   - 2 minute notifications to reclaim
+  
+  </details>
+  
+  <details>
+    <summary>Dedicated Host</summary>
+  
+  - Fully dedicated physical servers
+  - Most Expensive
+  
+  </details>
+
+</ul>
+</details>
+
+### F. Scaling Amazon EC2
+
+#### Amazon EC2 Auto Scaling
+
+- Enable developer to automatically add or remove Amazon EC2 instances in response to changing application demand
+
+  - Dynamic Scaling
+  - Predictive Scaling
+
+- Settings
+
+  - Minimum
+  - Desired
+  - Maximum (Scale As Need)
+
+### G. Directing Traffic with Elastic Load Balancing
+
+#### Load Balancing
+
+Computing technique to distribute workloads accross multiple computing resources.
+
+- Contexts
+  - Server load balancing
+  - network load balancing
+- Types
+  - Hardware load balancing
+  - Sofrware load balancing
+- Algorithms
+  - Round Robin
+  - Least Connections
+  - IP Hash
+- Applications
+  - Webservers
+  - Databases
+  - Clould Services
+  - Virtual Networks
+
+#### AWS Elastic Load Balancing (AWS ELB)
+
+Functions like a host, directing customers to different cashiers who are free.
+
+Ensure even distribution between EC2 instances.
+
+- Regional Construct
+- Decoupled Architecture
+- Works together with EC2 Auto-Scaling to manage instances
+- Also orchestra between frontend instances and backend intances
