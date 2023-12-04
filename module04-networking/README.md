@@ -27,4 +27,30 @@
 
 - AWS Direct Connect
   ![AWS Direct Connect](aws-direct-connect.png)
+
   - Private direct fibre connect from from data center to AWS
+
+- Other Wide Range of Tools:
+
+  - Network Hardening
+  - Application Security
+  - User Identity
+  - Autehtication and Authorization
+  - DDoS Prevention
+  - Data Intergrity
+  - Encryption
+
+- The reasons to use subnet inside the VPC is to control access
+
+- Packets are messages of the internet, when packets wants to enter a subnet's boundary, it will be checked by a Network Access Control List (Network ACL)
+
+- Different instances within the same subnet may have different security rules, and by default all ports are blocked
+
+- Modify the security group to accept a specific type of traffic:
+
+  - ie. websites would accept web based - HTTPS traffic
+  - disallowing administration or os level traffic
+  - By default all traffics are allowed out
+
+- Security Group vs Network ACL
+  - Stateful vs Stateless
