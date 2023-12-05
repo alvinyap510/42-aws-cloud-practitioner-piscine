@@ -54,3 +54,18 @@
 
 - Security Group vs Network ACL
   - Stateful vs Stateless
+
+### C. Global Networking
+
+Amazon Route 53
+
+- Amazon's DNS
+- Routing Policies
+  - Latency-based
+  - Geolocation DNS
+  - Geoproximity routing
+  - Weighted Round Robin
+
+Amazon CloudFront
+
+- Content Develivery Network
