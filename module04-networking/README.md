@@ -68,4 +68,4 @@ Amazon Route 53
 
 Amazon CloudFront
 
-- Content Develivery Network
+- Content-Develivery Network
