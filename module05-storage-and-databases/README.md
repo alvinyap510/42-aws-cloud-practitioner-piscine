@@ -92,3 +92,25 @@ Object Storage:
 
 - On premises AWS Outposts
 - Create S3 Bucket on AWS Outposts
+
+Elastic Block Storage vs S3
+
+| EBS                              | S3                     |
+| -------------------------------- | ---------------------- |
+| Up to 16TiB                      | Unlimited Storage      |
+| Survive Termination of Instances | Objects Upto 5 TB      |
+| Solid State by Default           | 99.999999999 % Durable |
+| HDD by Option                    | Worm                   |
+
+Example: Photo Analysis
+
+- Amazon S3
+- Web enabled
+- Regionally distributed
+- Cost savings
+
+Object Storage vs Block Storage
+
+- Block storage allow files to be updated only the parts that has changes
+
+If constant read, write, update => choose EBS
