@@ -47,3 +47,32 @@ Guidance was organized into 6 perspectives:
 
    - Define how day-to-day, month-to-month, year-to-year business is conducted
    - Roles: IT Operations Manager, IT Supports Manager
+
+### B. Migration Strategies
+
+6 Migration Strategies
+
+1. Rehosting
+
+   - lift and shift
+
+2. Replatforming
+
+   - lift tinker and shift
+
+3. Retire
+
+   - removing applications that are no longer needed
+
+4. Retain
+
+   - keeping some applications on the source that probably need major refactor before migrate
+
+5. Repurchase
+
+   - moving from traditional license to software-as-a-service license
+   - i.e. CRM to salesforce
+
+6. Refactoring / Re-Architecting
+
+   - Redesigning an application based on cloud native features
