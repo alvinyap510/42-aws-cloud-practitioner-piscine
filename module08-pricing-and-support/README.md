@@ -96,3 +96,10 @@ Others
   - create budgets
   - purchase and manage savings plan
   - publis AWS Cost and Usage Reports
+
+### D. Consolidated Bill
+
+- Default number of allowed AWS ccounts in an organization is 4
+- Consolidate bill to the organization owner
+- Bulk discount
+- Share reserved instances and bulk discount pricing
