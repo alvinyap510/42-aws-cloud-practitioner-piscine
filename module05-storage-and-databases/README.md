@@ -159,3 +159,26 @@ Amazon Aurora
 - 1 / 10th of commercial databases
 - 6 copies replicated at any given time
 - continuous backup to S3
+
+### E. Amazon DynamoDB
+
+- Non-Relational / NoSQL
+- Stored in Key-Value
+- Serverless Database
+  - No need to manage instances & underlying infrastructure
+- Store data redundantly
+- Purpose built
+
+#### RDS vs DynamoDB
+
+| Amazon RDS                       | Amazon DynamoDB     |
+| -------------------------------- | ------------------- |
+| Up to 16TiB                      | Key-Value           |
+| Survive Termination of Instances | High Throughput     |
+| Solid State by Default           | PB size potential   |
+| HDD by Option                    | Granular API Access |
+
+- RDS built for business analytics
+- If single table => uses DynamoDB to eliminate overhead
+
+### F. Amazon Redshift
