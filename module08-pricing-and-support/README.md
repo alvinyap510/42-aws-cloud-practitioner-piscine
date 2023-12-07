@@ -120,3 +120,54 @@ Others
 - tag is key-value pair
 - filter by tag
 - generate custom reports and save it
+
+### G. AWS Support Plans
+
+1. Basic Support
+
+   - no cost
+   - 24/7 customer service
+   - documentation
+   - whitepapers
+   - support forums
+   - AWS Trusted Advisor
+   - AWS Personal Health Dashboard
+
+2. AWS Developer Support
+
+   - Email access to customer service
+   - Best Practice Guidance
+   - Client-side diagnostic tools
+   - Building-block architecture support
+
+3. AWS Business Support
+
+   - Advance Trusted Advisor => Full set best practice checks
+   - Direct phone access to cloud support engineer
+   - Infrastructure event management => launching etc.
+   - Limited support for third-party software, such as common operating systems and application stack components
+
+4. Enterprise On-Ramp
+
+   - 30 minute response time for business critical workload
+   - access to Technical Account Managers (TAMs)
+   - Cost optimization workshop (once per year)
+   - concierge support for billing and account assistance
+   - consultative review and architecture guidance (once per year)
+   - infrastructure event management (once per year)
+   - support automation workflows
+
+5. AWS Enterprise
+
+   - 15 minute response time for business critical workload
+   - Designated Technical Account Manager (TAMs)
+   - Operation Review / Well-Architected Review
+
+- Six Pillars of Well-Architected Framework
+
+  - Operational Excellence
+  - Security
+  - Reliability
+  - Performance Efficiency
+  - Cost Optimization
+  - Sustainability
