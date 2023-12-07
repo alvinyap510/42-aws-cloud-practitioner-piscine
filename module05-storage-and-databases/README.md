@@ -16,7 +16,7 @@
 #### Block Level Storage
 
 - Can used as databases, enterprise softwares and file systems
-- Labtop and computer uses block levek storage: hard drive
+- Labtop and computer uses block level storage: hard drive
 - Depends on instance type, it might have Instance Store Volumes (Local Storage), write to it as normal hard drive
 - Since it is attached to the instance, once instance stopped, all info will be deleted
 - To store: temporary files, scratch datas
@@ -27,6 +27,7 @@
 - Attach to EC2 instances
 - Functions similar to an external hard disk
 - Snapshots: Incremental backups of the data
+- Must be same AZ as Instance that it attach to
 
 ### B. Amazon Simple Storage Service (Amazon S3)
 
@@ -182,3 +183,38 @@ Amazon Aurora
 - If single table => uses DynamoDB to eliminate overhead
 
 ### F. Amazon Redshift
+
+Data warehousing service for big data analytics & business intelligence
+
+- Historical Analytics => Looking backwards
+- Use SQL querry to search through raw data
+
+### G. AWS Database Migration Services
+
+- Migrating a source database to target database, while the source database still running
+  1. Homogeneous migration
+  2. Heterogenous => AWS Schema Conversio Tool
+- Development and test database migrations
+- Database consolidation
+- Continuous database replication
+
+### H. Additional Database Services
+
+#### Amazon DocumentDB
+
+- Compatible with MongoDB
+
+#### Amazon Neptune
+
+- Graph Database
+- Social Network, Recommendation Engines
+
+#### Amazon Managed Blockchain
+
+#### Amazon Quantum Ledger Database (Amazon QLDB)
+
+- Any entry can never be removed from the audits
+
+#### Amazon ElastiCache
+
+#### Amazon DynamoDB Accelerator (DAX)
