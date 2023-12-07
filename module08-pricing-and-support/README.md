@@ -103,3 +103,20 @@ Others
 - Consolidate bill to the organization owner
 - Bulk discount
 - Share reserved instances and bulk discount pricing
+
+### E. AWS Budgets
+
+- Navigate to billing => click budget => set budget
+- Update 3 times a day
+- Set custom budgets for cost and usage
+- Get notified when exceed or forecasted to exceed
+
+### F. AWS Cost Explorer
+
+- Search cost explorer
+- Console based service
+- 12 months of historical data
+- create tags to organize certain projects together
+- tag is key-value pair
+- filter by tag
+- generate custom reports and save it
