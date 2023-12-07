@@ -171,3 +171,20 @@ Others
   - Performance Efficiency
   - Cost Optimization
   - Sustainability
+
+### H. AWS Marketplace
+
+- Digital Catalog
+- Third-party software
+- Listed by independent software vendors
+- Flexible pricing plans
+- exp: one-click deployment
+- categories:
+  - Infrastructure Softwares
+  - DevOps
+  - Data Products
+  - Professional Services
+  - Business Applications
+  - Machine Learning
+  - Industries
+  - IoT
