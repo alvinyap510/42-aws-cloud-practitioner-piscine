@@ -76,3 +76,74 @@ Guidance was organized into 6 perspectives:
 6. Refactoring / Re-Architecting
 
    - Redesigning an application based on cloud native features
+
+### C. Amazon Snow Family
+
+1 PB of data with 1 Gbps bandwith would take 100 days for migration
+
+Amazon Snow Family is a collection of physical devices that helps data transfer physically
+
+#### Amazon Snowcone
+
+- 14TB, 4GB Ram, 2 CPUs
+
+#### Amazon Snowball
+
+Can fit into server racks
+
+1. Snowball Edge Storage Optimized
+
+   - 80TB HDD for block volumes and S3 compatible objects
+   - 1TB SATA SSD for block volumes
+   - 40 vCPU and 80GiB RAM
+
+2. Snowball Edge Compute Optimized
+
+   - 80TB HDD for block volumes and S3 compatible objects
+   - 28TB NVMe SSD for block volumes
+   - 104 vCPU, 416 GiB RAM, optional NVDIA Tesla V100 GPU
+
+#### Amazon Snowmobile
+
+- Up to 100PB per snowmobile
+- Pulled by a container
+
+### D. Innovation With Amazon
+
+1. VMWara Services
+
+   - Pre-trained AI
+   - Computer Vision
+   - Language recommendation
+   - Forcasting
+
+2. Amazon SageMaker
+
+   - Quickly build, train and deploy ML models
+
+3. Amazon Augmented AI (Amazon A2I)
+
+4. Amazon Lex
+
+   - Heart of Alexa
+   - Build voice and chatbots
+
+5. Amazon Textract
+
+   - extract text and data from scanned documents
+
+6. Amazon DeepRacer
+
+   - reinforcement racing
+
+7. IoT
+
+8. Satelite - AWS Ground Station
+
+9. Amazon Transcribe
+
+   - text-to-speech
+
+10. Amazon Comprehend
+
+11. Amazon Fraud Detector
