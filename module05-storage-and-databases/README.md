@@ -114,3 +114,48 @@ Object Storage vs Block Storage
 - Block storage allow files to be updated only the parts that has changes
 
 If constant read, write, update => choose EBS
+
+### C. Amazon Elastic File System (Amazon EFS)
+
+- Shared file systems accross different applications
+- Allow multiple instances to access data in the EFS at the same time
+- Linux File Systems
+- Regional resource
+- On-premise servers => access EFS via AWS Direct Connect
+- Compare EBS:
+  - EBS Volumes attached to EC2 instances, need to be at the same AZ
+  - EBS does not automatically scaled
+
+### D. Amazon Relational Dataservice Service (Amazon RDS)
+
+Suports:
+
+- Amazon Aurora
+- MySQL
+- PostgreSQL
+- Oracle Database
+- MariaDB
+- Microsoft SQL Server
+
+Migrate to Clould
+
+- Lift and shift
+
+Amazon RDS
+
+- Run relational database on the cloud
+- Can intergrate with Lambda
+- Automated Patching
+- Backups
+- Redundancy
+- Failover
+- Disaster recovery
+
+Amazon Aurora
+
+- Amazon's own relational database
+- Compatible with MySQL and PostgreSQL
+- 5x faster than MySQL and 3x faster than PostgreSQL
+- 1 / 10th of commercial databases
+- 6 copies replicated at any given time
+- continuous backup to S3
