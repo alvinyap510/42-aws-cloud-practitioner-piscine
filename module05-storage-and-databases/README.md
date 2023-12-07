@@ -37,7 +37,7 @@
 - Can version objects
 - Multiple buckers = tiers / class
 
-1. Amazon S3 Standard
+#### 1. Amazon S3 Standard
 
 - Frequent accessed data
 - Stored in at least 3 facilities
@@ -46,18 +46,18 @@
 - upload inside a bucket
 - check => host as static website
 
-2. Amazon S3 Standard-Infrequent Access (S3 Standard -IA)
+#### 2. Amazon S3 Standard-Infrequent Access (S3 Standard -IA)
 
 - Infrequently accessed data
 - Lower storage price but higher retrieval price
 - used for data that is accessed less frequently but when needed need to be accessed rapidly
 
-3. Amazon S3 One Zone-Infrequent Access
+#### 3. Amazon S3 One Zone-Infrequent Access
 
 - Only stores data in a single availability zone (compliance issue?)
 - Lower storage price than Standard-IA
 
-4. Amazon S3 Life Cycle Policies
+#### 4. Amazon S3 Life Cycle Policies
 
 - Auto matic move data between different S3 services
 
@@ -65,31 +65,31 @@ Object Storage:
 
 - Contains key, metadata and data
 
-5. Amazon S3 Intelligent Tiering
+#### 5. Amazon S3 Intelligent Tiering
 
 - Unknown or changing access patterns
 - Requires a small montuly monitoring and automation fee per object
 
-6. Amazon S3 Glacer Instant Retrieval
+#### 6. Amazon S3 Glacer Instant Retrieval
 
 - Archieved data that need immediate access
 - Within few milliseconds
 
-7. Amazon S3 Glacier Flexible Retrieval
+#### 7. Amazon S3 Glacier Flexible Retrieval
 
 - example: audit data
 - Low data archieving cost
 - retrieve objects within a few minutes to hours
 - 1 munutes - 12 hours
 
-8. Amazon S3 Glacier Deep Archive
+#### 8. Amazon S3 Glacier Deep Archive
 
 - Lowest costs
 - Retrieve within 12 hours - 48 hours
 - accessed once or twice in a year
 - replicated and stored at least three geographically dispersed availability zone
 
-9. Amazon S3 Outposts
+#### 9. Amazon S3 Outposts
 
 - On premises AWS Outposts
 - Create S3 Bucket on AWS Outposts
