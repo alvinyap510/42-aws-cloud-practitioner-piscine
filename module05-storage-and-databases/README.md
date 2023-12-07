@@ -207,7 +207,7 @@ Data warehousing service for big data analytics & business intelligence
 #### Amazon Neptune
 
 - Graph Database
-- Social Network, Recommendation Engines
+- Social Network, Recommendation Engines, Knowledge Graph, Fraud Detection
 
 #### Amazon Managed Blockchain
 
