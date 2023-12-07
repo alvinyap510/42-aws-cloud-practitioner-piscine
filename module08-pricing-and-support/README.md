@@ -84,3 +84,15 @@ Others
    - Pay for data transfer into and out of Amazon S3
    - No Cost for daya transferred into Amazon S3 and out to CloudFront
    - Management and replication: Pay for the storage management features that you have enabled on account's Amazon S3 buckets (inventory, analytics, object tagging)
+
+### C. AWS Billing Dashoard
+
+- Search billing to go to Dashboard
+  - compare month-to-date with previous month
+  - forcast of next month
+  - split by services
+  - view free-tier
+  - cost explorer
+  - create budgets
+  - purchase and manage savings plan
+  - publis AWS Cost and Usage Reports
