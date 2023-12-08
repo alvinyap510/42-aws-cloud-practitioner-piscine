@@ -1,5 +1,9 @@
 # 42-aws-cloud-practitioner-piscine
 
+## Badge Earned
+
+![Cloud Essential Badge](could-essential-badge-earned.png)
+
 ## Introduction
 
 Repo for 42 Kuala Lumpur's AWS Cloud Practitioner Certification 14-Days Piscine.
